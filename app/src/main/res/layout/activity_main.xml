@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/etModelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model Name" />
+
+    <EditText
+        android:id="@+id/etManufacturerYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Manufacturer Year"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etCpuModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CPU Model" />
+
+    <EditText
+        android:id="@+id/etHardDiskSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hard Disk Size"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Submit" />
+
+    <Button
+        android:id="@+id/btnFetchList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fetch List" />
+
+</LinearLayout>
